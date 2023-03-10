@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+
+/*contents*/
+.contents{margin:0 auto ;width:100%;overflow: hidden;}
+
+
+/*cont1*/
+.contents .cont1{width: 1200px;height: 950px;text-align: center; margin:10px auto 0;}
+.contents .cont1 h1{font-size: 30px;letter-spacing: -1.5px;margin-bottom: 27px;}
+
+.contents .cont1 hr{height: 2px;margin-bottom: 40px;}
+
+.contents .cont1 .cont1_in{width: 100%;height: 600px;}
+
+.tg{margin:30px auto 0;width: 100%;}
+
+.tg td{border:1px solid #ebebeb; border-left: 0; font-size:12px;overflow:hidden;padding:20px;word-break:normal; text-align: left;}
+
+.tg th{border:1px solid #ebebeb;font-size:12px;overflow:hidden;padding:20px;word-break:normal;font-weight: normal;}
+.tg th input{height: 28px;width: 400px;margin-left: 110px;border:1px solid #ebebeb;}
+
+.tg .th_1{text-align:left;border-left: none;border-right: none; width:100px;}
+.tg .th_1 span{margin-left: 60px;}
+.tg td.password{padding-bottom:5px;}
+
+.tg td span{padding: 5px 0 5px 0; display: inline-block;}
+.tg input{height: 24px;width: 114px;color:#a2a2a2;font-size: 12px;border:1px solid #ebebeb;padding:5px;}
+.tg input::placeholder{color:#a2a2a2}
+.tg input.wide{width: 300px;}
+.tg input.mid{width: 180px;}
+.tg input[type="button"]{width: 114px;height: 35px;cursor: pointer;}
+.tg input[type="checkbox"]{width: 15px;height: 15px;}
+
+.tg p.pwGuide{color: #c1c0c0;font-size: 11px;padding: 5px 0 5px 0;}
+.tg label{display:block;}
+.tg label.sns{margin-bottom:5px;}
+.tg label input[type="checkbox"]{vertical-align: middle;}
+.tg label p{vertical-align: middle;}
+
+.contents .cont1 .cont1_in .p1{text-align: left;margin-top: 20px;color:#939393;font-size: 11px;}
+.contents .cont1 .cont1_in a{font-weight: bold;color:#fff}
+
+.contents .cont1 .cont1_in .btn{background:#0000ff;border-radius: 6px;color:#fff; margin-left:10px;}
+.contents .cont1 .cont1_in .btn2{width: 200px;height: 40px;margin:70px auto 0;line-height: 40px;}
+
+

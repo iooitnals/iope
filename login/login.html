@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>아이오페 - 로그인</title>
+<link rel="stylesheet" href="../common/css/common.css">
+<link rel="stylesheet" href="../common/css/common_media.css">
+<link rel="stylesheet" href="css/login.css">
+<link rel="stylesheet" href="css/login_media.css">
+
+<link rel="stylesheet" href="../maincss/flexslider2.css"> <!--content1 slide-->
+
+<script src="../mainjs/jquery-1.10.2.min.js"></script>
+<script src="../mainjs/jssor.slider-22.1.8.mini.js"></script> <!--visual slide-->
+
+<link rel="stylesheet" href="../assets/css/style15-ex.css">
+<link rel="stylesheet" href="../assets/css/swiper.css">  
+
+<script src="../common/js/common.js"></script>
+<script src="../mainjs/main.js"></script>
+
+</head>
+<body>
+<div id="wrap">
+  <header class="header">
+    <div class="header_m_t">
+      <h1><a href="#"><img src="../image/logo.png" alt="logo"></a></h1> 
+      <p class="ic_menu"><img src="../common/images/ic_menu.png" alt="ic_menu"></p>
+    </div><!--header_m_t/-->  
+  
+    <div class="header_pc"> 
+  
+     <div class="header_menu">
+      <h1><a href="#"><img src="../image/logo.png" alt="pc_logo" class="pc_logo"></a></h1>
+  
+      <nav class="nav">
+       <ul class="gnb">
+        <li><a href="#">베스트셀러</a>
+          <ul class="sub sub1">
+            <li><a href="../sub/bestseller.html"><span>▶</span> 베스트셀러 보러가기</a></li>
+            <li><img src="../common/images/menu_top_back.png" alt="" class="top_arr1"></li>
+            </ul>
+          </li>
+       
+         <li><a href="#">제품</a>
+          <ul class="sub sub2"> 
+           <li><a href="../sub/awards.html">신제품</a></li>
+           <li><a href="../sub/skincare.html">스킨케어</a></li>
+           <li><a href="../sub/makeup.html">메이크업</a></li>
+           <li><a href="../sub/m">맨</a></li>
+           <li><img src="../common/images/menu_top_back.png" alt="" class="top_arr2"></li>
+          </ul>
+         </li>
+       
+         <li><a href="#">아이오페 소개</a>
+          <ul class="sub sub3"> 
+           <li><a href="../sub/awards.html">주요수상내역</a></li>
+           <li><a href="../sub/story.html">브랜드 스토리</a></li>
+           <li><a href="../sub/history.html">브랜드 히스토리</a></li>
+           <li><a href="../sub/news.html">뉴스</a></li>
+           <li><img src="../common/images/menu_top_back.png" alt="" class="top_arr3"></li>
+          </ul>
+         </li>
+       
+         <li><a href="#">아이오페 랩</a>
+          <ul class="sub sub4">
+           <li><a href="../sub/story.html">소개</a></li> 
+           <li><a href="../sub/solution.html">피부미래 솔루션</a></li>   
+           <li><a href="../sub/skinnews.html">스킨 뉴스</a></li>   
+           <li><img src="../common/images/menu_top_back.png" alt="" class="top_arr4"></li>                  
+          </ul>
+         </li>
+         </ul>
+  
+        <ul class="gnb2">     
+         <li><a href="#"><img src="../image/language.jpg" alt="언어" class="btn"></a>
+          <ul class="ssub sub1">
+            <li><a href="#">English</a></li> 
+            <li><a href="#">한국어</a></li> 
+          </ul>
+          </li>
+         <li><a href="../login/login.html"><img src="../image/mypage.jpg" alt="마이페이지" class="btn"></a>
+          <ul class="ssub sub2">
+            <li><a href="../login/login.html">로그인</a></li> 
+            <li><a href="../login/login_join1.html">회원가입</a></li> 
+          </ul></li>
+         <li><a href="#"><img src="../image/map.jpg" alt="매장찾기" class="i-search-btn2"></a></li>
+         <li><a href="#"><img src="../image/search.jpg" alt="검색" class="i-search-btn"></a></li>
+        </ul>
+      </nav>
+  
+      <div class="gnb_back"></div><!--gnb_back/-->
+
+      <div class="search_box"> 
+        <div class="search_box_in">
+         <ul>
+          <li><input type="text" placeholder="검색어를 입력하세요." class="search_form"></li>
+          <li><input type="button" value="Search" class="search_btn" ></li>
+         </ul>
+        </div><!--search_box/-->
+                                                             
+        <p class="search_close">X</p>
+       </div><!--search_box/-->
+
+
+       <div class="search_box2"> 
+        <div class="search_box_in">
+         <ul>
+          <li><input type="text" placeholder="지역을 입력하세요." class="search_form"></li>
+          <li><input type="button" value="Search" class="search_btn" width="200px;"></li>
+         </ul>
+        </div><!--search_box/-->
+                                                             
+        <p class="search_close">X</p>
+       </div><!--search_box/-->
+  
+     </div><!--header_menu/--> 
+    </div><!--header_pc/-->  
+   </header>
+  
+  
+  
+  <div class="menu_m_t">
+    <p class="logo"><img src="../image/logo.png"></p>
+    
+   <ul class="gnb_m_t">
+    <li><a href="../sub/bestseller.html">베스트셀러</a>
+     <ul class="sub_m_t sub_m_t1">
+     </ul>
+    </li>
+  
+    <li><a href="#">제품</a>
+     <ul class="sub_m_t sub_m_t2"> 
+      <li><a href="../sub/new.html">- 신제품</a></li>
+      <li><a href="../sub/skincare.html">- 스킨케어</a></li>
+      <li><a href="../sub/makeup.html">- 메이크업</a></li>    
+      <li><a href="../sub/men.html">- 맨</a></li>   
+     </ul>
+    </li>
+  
+    <li><a href="#">아이오페 소개</a>
+     <ul class="sub_m_t sub_m_t3"> 
+      <li><a href="../sub/awards.html">- 주요 수상내역</a></li>
+      <li><a href="../sub/story.html">- 브랜드 스토리</a></li>
+      <li><a href="../sub/history.html">- 브랜드 히스토리</a></li>
+      <li><a href="../sub/news.html">- 뉴스</a></li>
+     </ul>
+    </li>
+  
+    <li><a href="#">아이오페 랩</a>
+     <ul class="sub_m_t sub_m_t4">
+      <li><a href="../sub/story.html">- 소개</a></li> 
+      <li><a href="../sub/solution.html">- 피부미래 솔루션</a></li>        
+      <li><a href="../sub/skinnews.html">- 스킨뉴스</a></li>                     
+     </ul>
+    </li>
+  
+    <li><a href="../login/login.html">마이페이지</a>
+     <ul class="sub_m_t sub_m_t5">
+      <li><a href="../login/login_join1.html">- 회원가입</a></li> 
+      <li><a href="../login/login.html">- 아이오페 랩 예약 확인</a></li> 
+      <li><a href="../login/login.html">- 뷰티포인트</a></li>                         
+     </ul>
+    </li>
+   </ul>
+  
+   <p class="close_m_t"><img src="../common/images/x.png" alt=""></p>
+  </div><!--menu_m_t/--> 
+  
+  
+  <div class="contents">
+    <section class="login">
+        <div class="login_box">
+
+        <h1>로그인</h1>
+        <h2>아모레퍼시픽 뷰티포인트 통합회원<br> 아이디로 로그인해주세요</h2>
+
+
+        <div class="id"><input type="text" placeholder="아이디"></div>
+        <div class="pw"><input type="text" placeholder="패스워드"></div>
+
+        <p class="p1">로그인 유지 <input type="checkbox"></p>
+
+        <div class="btn">로그인</div>
+        <div class="btn2"><a href="login_join1.html">회원가입</a></div>
+
+        <p class="p2">
+            로그인 정보가 기억나지 않으세요?<br>
+            <span>아이디 / 비밀번호 찾기</span>
+        </p>
+
+        </div><!--login_box-->
+
+    </section>
+
+</div><!--contents-->
+
+
+
+ <footer class="footer"> 
+  
+  <div class="foot1"></div>
+
+  <div class="foot2">
+    <ul class="foot2_pc">    
+      <li><a href="#">서비스 이용약관</a></li>         
+      <li>|</li>          
+      <li><a href="#">UGC 이용약관</a></li> 
+      <li>|</li>          
+      <li><a href="#">개인정보처리방침</a></li>                 
+      <li>|</li>         
+      <li><a href="#">사이트맵</a></li>           
+      <li>|</li>          
+      <li><a href="#">공지사항</a></li>
+      <li>|</li>  
+      <li>    
+      <p><a href="#"><img src="../common/images/sns_1.png" alt="sns1"></a></p>
+      <p><a href="#"><img src="../common/images/sns_2.png" alt="sns2"></a></p>
+      <p><a href="#"><img src="../common/images/sns_3.png" alt="sns3"></a></p>
+      <p><a href="#"><img src="../common/images/sns_4.png" alt="sns4"></a></p>
+    </li>    
+    </ul>
+
+    <ul class="foot2_t_m">    
+      <li><a href="../login/login.html">로그인</a></li>
+      <li>|</li>    
+      <li><a href="#">고객센터</a></li>
+      <li>|</li>       
+      <li><a href="#">공지사항</a></li>      
+      <li>|</li>     
+      <li><a href="#">사이트맵</a></li>
+    </ul>
+
+  </div><!--foot2/-->
+
+  <div class="foot3">
+
+   <div class="foot3_1">
+    <p>고객서비스센터(수신자요금 부담) 080-023-5454(월~금, 09:00~18:00)<br> 
+    &copy; AMOREPACIFIC CORPORATION. All rights reserved.</p>
+   </div><!--foot3_1/-->
+  </div><!--foot3/-->
+ </footer>
+
+</div><!--wrap/--> 
+
+</body>
+</html>

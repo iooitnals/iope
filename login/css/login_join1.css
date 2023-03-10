@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+
+/*contents*/
+.contents{margin:0 auto ;width:100%;overflow: hidden;}
+
+
+/*cont1*/
+.contents .cont1{width:1200px;height: 800px;text-align: center; margin:10px auto 0;}
+.contents .cont1 h1{font-size: 30px;letter-spacing: -1.5px;margin-bottom: 27px;}
+
+.contents .cont1 .cont1_in{width: 100%;height: 600px;}
+
+.tg{margin:30px auto 0;width: 100%;}
+
+.tg td{border:1px solid #ebebeb;font-size:12px;overflow:hidden;padding:20px;word-break:normal;}
+
+.tg th{border:1px solid #ebebeb;font-size:12px;overflow:hidden;padding:20px;word-break:normal;font-weight: normal;}
+.tg th input{height: 28px;width: 400px;margin-left: 110px;border:1px solid #ebebeb}
+
+.tg .th_1{text-align:left;border-left: none;border-right: none;}
+.tg .birth select:first-child{margin-left: 82px;}
+.tg .birth select{margin-right: 20px;}
+.tg .th_1 select{height: 28px;width: 120px;color:#a2a2a2;font-size: 12px;border:1px solid #ebebeb}
+.tg .th_1 span{margin-left: 60px;}
+
+.tg .phone select{margin-left: 93px;}
+.tg .phone input{height: 24px;width: 114px;color:#a2a2a2;font-size: 12px;border:1px solid #ebebeb;margin-left: 20px;}
+.tg .phone input[type="button"]{width: 114px;height: 30px;cursor: pointer;}
+
+.contents .cont1 .cont1_in .p1{text-align: left;margin-top: 20px;color:#939393;font-size: 11px;}
+.contents .cont1 .cont1_in .btn2{width: 200px;height: 40px;margin:70px auto 0;line-height: 40px;}
+.contents .cont1 .cont1_in a{font-weight: bold;color:#fff}
+
+.contents .cont1 .cont1_in .btn{background:#0000ff;border-radius: 6px;color:#fff;}
+
+

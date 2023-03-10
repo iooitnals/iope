@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+
+/*mobile*/
+  @media all and (max-width:639px){
+    .contents{padding-top: 170px;box-sizing: border-box;}
+    .contents .cont1 .cont1_in img{display: none;}
+
+
+/*cont1*/
+.contents .cont1{width:98%;height: 530px;}
+.contents .cont1 h1{font-size: 25px;margin-bottom: 27px;}
+
+.contents .cont1 .cont1_in{height: 400px;}
+
+
+.tg td{font-size:11px;padding:10px;}
+
+.tg th{font-size:11px;padding:10px;}
+.tg th input{height: 24px;width: 260px;margin-left: 70px;}
+
+.tg .birth select:first-child{margin-left: 43px;}
+.tg .birth select{margin-right: 20px;}
+.tg .th_1 select{height: 24px;width: 80px;color:#a2a2a2;font-size: 12px;border:1px solid #ebebeb}
+.tg .th_1 span{margin-left: 20px;}
+
+.tg .phone select{margin-left: 53px;}
+.tg .phone input{height: 24px;width: 75px;color:#a2a2a2;font-size: 121x;margin-left: 10px;}
+.tg .phone input[type="button"]{width: 75px;height: 30px;font-size: 11px;}
+
+.contents .cont1 .cont1_in .btn2{width: 160px;height: 35px;margin:50px auto 0;line-height: 35px;}
+
+
+
+/*tablet*/
+@media all and (min-width:640px) and (max-width:1199px){
+  .contents{padding-top: 90px;box-sizing: border-box;}
+  .contents .cont1 .cont1_in img:first-child{display: none;}
+
+
+  /*cont1*/
+
+  .contents .cont1 h1{font-size: 30px;}
+  .contents .cont1 p{font-size: 12px;margin-top: 2px;}
+  .contents .cont1{width: 800px;height: 670px;text-align: center;margin:110px auto 0;}
+  .contents .cont1 .cont1_in .p1{font-size: 14px;}
+
+
+}
+
+
+
+/*pc*/
+@media all and (min-width:1200px){
+  .contents{padding-top: 70px;box-sizing: border-box;}
+  .contents .cont1 .cont1_in img:nth-child(2){display: none;}
+  .contents .cont1 .cont1_in .p1{font-size: 14px;}
+
+  
+}
+
+
+
+    
+
+
+
+
+
+}
+
+
+/*tablet*/
+@media all and (min-width:640px) and (max-width:1199px){
+    .contents{padding-top: 90px;box-sizing: border-box;}
+
+    .contents .cont1 .cont1_in img:first-child{display: none;}
+
+
+/*cont1*/
+
+.contents .cont1 h1{font-size: 30px;}
+.contents .cont1 p{font-size: 12px;margin-top: 2px;}
+
+.contents .cont1{width: 800px;height: 670px;text-align: center;margin:110px auto 0;}
+
+
+}
+
+
+
+
+/*pc*/
+ @media all and (min-width:1200px){
+    .contents{padding-top: 170px;box-sizing: border-box;}
+    .contents .cont1 .cont1_in img:nth-child(2){display: none;}
+
+    
+}
