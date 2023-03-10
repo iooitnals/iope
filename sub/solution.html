@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>아이오페 - 솔루션</title>
+<link rel="stylesheet" href="../common/css/common.css">
+<link rel="stylesheet" href="../common/css/common_media.css">
+<link rel="stylesheet" href="css/solution.css">
+<link rel="stylesheet" href="css/solution_media.css">
+
+<link rel="stylesheet" href="../maincss/flexslider2.css"> <!--content1 slide-->
+<link rel="stylesheet" href="../maincss/animate-ex.css">
+
+<script src="../mainjs/jquery-1.10.2.min.js"></script>
+<script src="../mainjs/jssor.slider-22.1.8.mini.js"></script> <!--visual slide-->
+<script src="../mainjs/jquery.scrollTo.min"></script>
+<script src="../mainjs/wow.js"></script>
+
+<!--mousewheel-->
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/prefixfree.min.js"></script>
+<script src="js/jquery.mousewheel.min.js"></script>
+<script src="js/jquery.scrollTo.min.js"></script>
+
+<script src="../common/js/common.js"></script>
+<script src="../mainjs/main.js"></script>
+<script src="js/sub.js"></script>
+
+</head>
+<body>
+<div id="wrap">
+  <header class="header">
+    <div class="header_m_t">
+      <h1><a href="../index.html"><img src="../image/logo.png" alt="logo"></a></h1> 
+      <p class="ic_menu"><img src="../common/images/ic_menu.png" alt="ic_menu"></p>
+    </div><!--header_m_t/-->  
+  
+    <div class="header_pc"> 
+  
+     <div class="header_menu">
+      <h1><a href="#"><img src="../image/logo.png" alt="pc_logo" class="pc_logo"></a></h1>
+  
+      <nav class="nav">
+       <ul class="gnb">
+        <li><a href="#">베스트셀러</a>
+          <ul class="sub sub1">
+            <li><a href="bestseller.html"><span>▶</span> 베스트셀러 보러가기</a></li>
+            <li><img src="../common/images/menu_top_back.png" alt="" class="top_arr1"></li>
+            </ul>
+          </li>
+       
+         <li><a href="#">제품</a>
+          <ul class="sub sub2"> 
+           <li><a href="new.html">신제품</a></li>
+           <li><a href="skincare.html">스킨케어</a></li>
+           <li><a href="makeup.html">메이크업</a></li>
+           <li><a href="men.html">맨</a></li>
+           <li><img src="../common/images/menu_top_back.png" alt="" class="top_arr2"></li>
+          </ul>
+         </li>
+       
+         <li><a href="#">아이오페 소개</a>
+          <ul class="sub sub3"> 
+           <li><a href="awards.html">주요수상내역</a></li>
+           <li><a href="story.html">브랜드 스토리</a></li>
+           <li><a href="history.html">브랜드 히스토리</a></li>
+           <li><a href="news.html">뉴스</a></li>
+           <li><img src="../common/images/menu_top_back.png" alt="" class="top_arr3"></li>
+          </ul>
+         </li>
+       
+         <li><a href="#">아이오페 랩</a>
+          <ul class="sub sub4">
+           <li><a href="about.html">소개</a></li> 
+           <li><a href="solution.html">피부미래 솔루션</a></li>   
+           <li><a href="skinnews.html">스킨 뉴스</a></li>   
+           <li><img src="../common/images/menu_top_back.png" alt="" class="top_arr4"></li>                  
+          </ul>
+         </li>
+         </ul>
+  
+        <ul class="gnb2">     
+         <li><a href="#"><img src="../image/language.jpg" alt="언어" class="btn"></a>
+          <ul class="ssub sub1">
+            <li><a href="#">English</a></li> 
+            <li><a href="#">한국어</a></li> 
+          </ul>
+          </li>
+         <li><a href="#"><img src="../image/mypage.jpg" alt="마이페이지" class="btn"></a>
+          <ul class="ssub sub2">
+            <li><a href="../login/login.html">로그인</a></li> 
+            <li><a href="../login/login_join1.html">회원가입</a></li> 
+          </ul></li>
+         <li><a href="#"><img src="../image/map.jpg" alt="매장찾기" class="i-search-btn2"></a></li>
+         <li><a href="#"><img src="../image/search.jpg" alt="검색" class="i-search-btn"></a></li>
+        </ul>
+      </nav>
+  
+      <div class="gnb_back"></div><!--gnb_back/-->
+
+      <div class="search_box"> 
+        <div class="search_box_in">
+         <ul>
+          <li><input type="text" placeholder="검색어를 입력하세요." class="search_form"></li>
+          <li><input type="button" value="Search" class="search_btn" ></li>
+         </ul>
+        </div><!--search_box/-->
+                                                             
+        <p class="search_close">X</p>
+       </div><!--search_box/-->
+
+
+       <div class="search_box2"> 
+        <div class="search_box_in">
+         <ul>
+          <li><input type="text" placeholder="지역을 입력하세요." class="search_form"></li>
+          <li><input type="button" value="Search" class="search_btn" width="200px;"></li>
+         </ul>
+        </div><!--search_box/-->
+                                                             
+        <p class="search_close">X</p>
+       </div><!--search_box/-->
+  
+     </div><!--header_menu/--> 
+    </div><!--header_pc/-->  
+   </header>
+  
+  
+  
+  <div class="menu_m_t">
+    <p class="logo"><img src="../image/logo.png"></p>
+    
+   <ul class="gnb_m_t">
+    <li><a href="bestseller.html">베스트셀러</a>
+     <ul class="sub_m_t sub_m_t1">
+     </ul>
+    </li>
+  
+    <li><a href="#">제품</a>
+     <ul class="sub_m_t sub_m_t2"> 
+      <li><a href="new.html">- 신제품</a></li>
+      <li><a href="skincare.html">- 스킨케어</a></li>
+      <li><a href="makeup.html">- 메이크업</a></li>    
+      <li><a href="men.html">- 맨</a></li>   
+     </ul>
+    </li>
+  
+    <li><a href="#">아이오페 소개</a>
+     <ul class="sub_m_t sub_m_t3"> 
+      <li><a href="awards.html">- 주요 수상내역</a></li>
+      <li><a href="story.html">- 브랜드 스토리</a></li>
+      <li><a href="history.html">- 브랜드 히스토리</a></li>
+      <li><a href="news.html">- 뉴스</a></li>
+     </ul>
+    </li>
+  
+    <li><a href="#">아이오페 랩</a>
+     <ul class="sub_m_t sub_m_t4">
+      <li><a href="about.html">- 소개</a></li> 
+      <li><a href="solution.html">- 피부미래 솔루션</a></li>        
+      <li><a href="skinnews.html">- 스킨뉴스</a></li>                     
+     </ul>
+    </li>
+  
+    <li><a href="../login/login.html">마이페이지</a>
+     <ul class="sub_m_t sub_m_t5">
+      <li><a href="../login/login_join1.html">- 회원가입</a></li> 
+      <li><a href="../login/login.html">- 아이오페 랩 예약 확인</a></li> 
+      <li><a href="../login/login.html">- 뷰티포인트</a></li>                         
+     </ul>
+    </li>
+   </ul>
+  
+   <p class="close_m_t"><img src="../common/images/x.png" alt=""></p>
+  </div><!--menu_m_t/--> 
+
+
+
+
+  <div class="visual">
+
+    <div class="visual_in">
+        <h1>피부미래 솔루션</h1>
+        <p>
+          아이오페 랩은 정밀한 기기를 통한<br>
+          피부 측정과 피부 전문 연구원의<br>
+          1:1 카운셀링에 기반하여 개개인의<br>
+          더 나은 피부 미래를 위한 최적의<br>
+          맞춤솔루션을 제공합니다.<br>
+        </p>
+    </div>
+</div><!--visual-->
+
+ <div class="content_pc">
+  <h2>랩 투 미 예약</h2>
+   <ul>
+  <li class="cont1"><img src="images/sol01.JPG" alt="">
+    <div class="cap">
+      <h3>GENO FUTURE PROGRAM</h3>  
+      <h4>유전자 분석 피부미래 솔루션</h4>
+      <p>유전자 진단을 통해 타고난 피부와<br>
+        건강 유전자를 확인하세요.<br>
+        <br>
+        다년간의 유전자 연구 노하우를 가진<br>
+        아이오페 랩이 유전자 분석 결과를 해석해<br>
+        타고난 피부 특성을 예측하고 피부 정밀<br>
+        측정을 통해 더 나은 피부 미래를 위한<br>
+        종합 솔루션을 제공합니다.</p>
+     </div>
+  </li>
+
+  <li class="cont2"><img src="images/sol2.JPG" alt="">
+    <div class="cap">
+      <h3>SKIN COUNSELING PROGRAM</h3>  
+      <h4>피부 측정 카운셀링 프로그램</h4>
+      <p>피부측정 기기와 1:1 카운셀링을 통해<br>
+        피부상태를 측정하고,<br>
+        개인별 피부 타입과 피부고민에 최적화된<br>
+        스킨케어 솔루션을 제안해드립니다.</p>
+     </div>
+  </li>
+
+  <li class="cont3"><img src="images/sol01.JPG" alt="">
+    <div class="cap">
+      <h3>MENTORING PROGRAM</h3>  
+      <h4>1:1 언택트 멘토링</h4>
+      <p>연구소 기반의 고기능성 브랜드<br>
+        아이오페의 피부전문 연구원이<br>
+        제품을 구매하신 분들께 개개인<br>
+        피부 고민에 맞춰 라이브챗을 활용한<br>
+        1:1 카운셀링을 제공합니다.</p>
+     </div>
+  </li>
+  </ul>
+ </div>
+
+
+
+
+ <div class="content_t">
+  <h2>랩 투 미 예약</h2>
+   <ul>
+  <li class="cont1"><img src="images/sol01_t.jpg" alt="">
+    <div class="cap">
+      <h3>GENO FUTURE PROGRAM</h3>  
+      <h4>유전자 분석 피부미래 솔루션</h4>
+      <p>유전자 진단을 통해 타고난 피부와<br>
+        건강 유전자를 확인하세요.<br>
+        <br>
+        다년간의 유전자 연구 노하우를 가진<br>
+        아이오페 랩이 유전자 분석 결과를 해석해<br>
+        타고난 피부 특성을 예측하고 피부 정밀<br>
+        측정을 통해 더 나은 피부 미래를 위한<br>
+        종합 솔루션을 제공합니다.</p>
+     </div>
+  </li>
+
+  <li class="cont2"><img src="images/sol2_t.jpg" alt="">
+    <div class="cap">
+      <h3><br><br>SKIN COUNSELING PROGRAM</h3>  
+      <h4>피부 측정 카운셀링 프로그램</h4>
+      <p>피부측정 기기와 1:1 카운셀링을 통해<br>
+        피부상태를 측정하고,<br>
+        개인별 피부 타입과 피부고민에 최적화된<br>
+        스킨케어 솔루션을 제안해드립니다.</p>
+     </div>
+  </li>
+
+  <li class="cont3"><img src="images/sol01_t.jpg" alt="">
+    <div class="cap">
+      <h3><br><br>MENTORING PROGRAM</h3>  
+      <h4>1:1 언택트 멘토링</h4>
+      <p>연구소 기반의 고기능성 브랜드<br>
+        아이오페의 피부전문 연구원이<br>
+        제품을 구매하신 분들께 개개인<br>
+        피부 고민에 맞춰 라이브챗을 활용한<br>
+        1:1 카운셀링을 제공합니다.</p>
+     </div>
+  </li>
+  </ul>
+ </div>
+
+
+
+
+ <div class="content_m">
+  <h2>랩 투 미 예약</h2>
+   <ul>
+  <li class="cont1"><img src="images/sol01_t.jpg" alt="">
+    <div class="cap">
+      <h3>GENO FUTURE PROGRAM</h3>  
+      <h4>유전자 분석 피부미래 솔루션</h4>
+      <p>유전자 진단을 통해 타고난 피부와<br>
+        건강 유전자를 확인하세요.<br>
+        <br>
+        다년간의 유전자 연구 노하우를 가진<br>
+        아이오페 랩이 유전자 분석 결과를 해석해<br>
+        타고난 피부 특성을 예측하고 피부 정밀<br>
+        측정을 통해 더 나은 피부 미래를 위한<br>
+        종합 솔루션을 제공합니다.</p>
+     </div>
+  </li>
+
+  <li class="cont2"><img src="images/sol2_t.jpg" alt="">
+    <div class="cap">
+      <h3>SKIN COUNSELING PROGRAM</h3>  
+      <h4>피부 측정 카운셀링 프로그램</h4>
+      <p>피부측정 기기와 1:1 카운셀링을 통해<br>
+        피부상태를 측정하고,<br>
+        개인별 피부 타입과 피부고민에 최적화된<br>
+        스킨케어 솔루션을 제안해드립니다.</p>
+     </div>
+  </li>
+
+  <li class="cont3"><img src="images/sol01_t.jpg" alt="">
+    <div class="cap">
+      <h3>MENTORING PROGRAM</h3>  
+      <h4>1:1 언택트 멘토링</h4>
+      <p>연구소 기반의 고기능성 브랜드<br>
+        아이오페의 피부전문 연구원이<br>
+        제품을 구매하신 분들께 개개인<br>
+        피부 고민에 맞춰 라이브챗을 활용한<br>
+        1:1 카운셀링을 제공합니다.</p>
+     </div>
+  </li>
+  </ul>
+ </div>
+
+
+  <footer class="footer"> 
+  
+    <div class="foot1"></div>
+  
+    <div class="foot2">
+      <ul class="foot2_pc">    
+        <li><a href="#">서비스 이용약관</a></li>         
+        <li>|</li>          
+        <li><a href="#">UGC 이용약관</a></li> 
+        <li>|</li>          
+        <li><a href="#">개인정보처리방침</a></li>                 
+        <li>|</li>         
+        <li><a href="#">사이트맵</a></li>           
+        <li>|</li>          
+        <li><a href="#">공지사항</a></li>
+        <li>|</li>  
+        <li>    
+        <p><a href="#"><img src="../common/images/sns_1.png" alt="sns1"></a></p>
+        <p><a href="#"><img src="../common/images/sns_2.png" alt="sns2"></a></p>
+        <p><a href="#"><img src="../common/images/sns_3.png" alt="sns3"></a></p>
+        <p><a href="#"><img src="../common/images/sns_4.png" alt="sns4"></a></p>
+      </li>    
+      </ul>
+  
+      <ul class="foot2_t_m">    
+        <li><a href="#">로그인</a></li>
+        <li>|</li>    
+        <li><a href="#">고객센터</a></li>
+        <li>|</li>       
+        <li><a href="#">공지사항</a></li>      
+        <li>|</li>     
+        <li><a href="#">사이트맵</a></li>
+      </ul>
+  
+    </div><!--foot2/-->
+  
+    <div class="foot3">
+  
+     <div class="foot3_1">
+      <p>고객서비스센터(수신자요금 부담) 080-023-5454(월~금, 09:00~18:00)<br> 
+      &copy; AMOREPACIFIC CORPORATION. All rights reserved.</p>
+     </div><!--foot3_1/-->
+    </div><!--foot3/-->
+   </footer>
+  
+  </div><!--wrap/--> 
+
+</body>
