@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+
+/* 모바일 */
+@media screen and (max-width:639px){
+{display:none;}
+
+.page1 #page1 div.page1_in4 h3{text-align:center;color:#333;font-size:20px; margin:10px;letter-spacing: -2px;}
+.page1 #page1 div.page1_in4 p{font-size: 12px; text-align:center;letter-spacing: -2px;}
+
+.page2 #page2 h2{text-align:center;color:#fff; font-size:30px; margin:20px;}
+.page2 #page2 h3{text-align:center;color:#fff; font-size:14px; line-height: 30px; letter-spacing: -2px;}
+
+.page3 #page3 h2{text-align:center;color:#fff; font-size:30px; margin:20px;}
+.page3 #page3 h3{text-align:center;color:#fff; font-size:14px; line-height: 30px; letter-spacing: -2px;}
+
+.page4 #page4 h2{text-align:center;color:#fff; font-size:30px; margin:20px;}
+.page4 #page4 h3{text-align:center;color:#fff; font-size:14px; line-height: 30px; letter-spacing: -2px;}
+
+.page5 #page5 h2{text-align:center;color:#fff; font-size:30px; margin:20px;}
+.page5 #page5 h3{text-align:center;color:#fff; font-size:14px; line-height: 30px; letter-spacing: -2px;}
+}
+
+
+/*  태블릿  */
+@media screen and (min-width:640px) and (max-width:1024px){
+{display:none;}
+
+.page2 #page2 h2{text-align:center;color:#fff; font-size:56px; margin:20px;}
+.page2 #page2 h3{text-align:center;color:#fff; font-size:18px; line-height:40px;letter-spacing: -2px;}
+
+.page3 #page3 h2{text-align:center;color:#fff; font-size:56px; margin:20px;}
+.page3 #page3 h3{text-align:center;color:#fff; font-size:18px; line-height: 30px;}
+
+.page4 #page4 h2{text-align:center;color:#fff; font-size:56px; margin:20px;}
+.page4 #page4 h3{text-align:center;color:#fff; font-size:20px; line-height: 30px;}
+
+.page5 #page5 h2{text-align:center;color:#fff; font-size:56px; margin:20px;}
+.page5 #page5 h3{text-align:center;color:#fff; font-size:20px; line-height: 30px;}
+}
+
+/*  PC  */
+@media all and (min-width:1024px){
+{display:none;}
+
+
+.page2 #page2 h2{text-align:center;color:#fff; font-size:70px; margin:20px;}
+.page2 #page2 h3{text-align:center;color:#fff; font-size:20px; line-height: 30px;}
+
+.page3 #page3 h2{text-align:center;color:#fff; font-size:70px; margin:20px;}
+.page3 #page3 h3{text-align:center;color:#fff; font-size:18px; line-height: 30px;}
+
+.page4 #page4 h2{text-align:center;color:#fff; font-size:70px; margin:20px;}
+.page4 #page4 h3{text-align:center;color:#fff; font-size:20px; line-height: 30px;}
+
+.page5 #page5 h2{text-align:center;color:#fff; font-size:70px; margin:20px;}
+.page5 #page5 h3{text-align:center;color:#fff; font-size:20px; line-height: 30px;}
+
+}
+
+
+
+

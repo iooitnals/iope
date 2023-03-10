@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+    /*mobile*/
+    @media all and (max-width:639px){
+
+        {display:none;}
+        
+        .visual .visual_in{width:100%; height:400px; text-align: center;z-index:3;}
+        .visual .visual_in h1{font-size: 100px; padding-top:100px;text-align: center; position: relative;}
+        .visual .visual_in p{font-size:11px; letter-spacing:-2px; line-height:3; margin-top: 10px; text-align: center;}
+        .visual .visual_in .line1{border-bottom:1px solid #e4e4e4; width:1200px;margin-top:0%; position: absolute; left:2%;}
+        .visual .visual_in .line3{border-left:1px solid #e4e4e4; height:400px;margin-left:5%; position: absolute; top:30px;}
+        .visual .visual_in .line4{border-left:1px solid #e4e4e4; height:400px;margin-left:95%; position: absolute; top:30px;}
+
+        .contents {margin:0 auto; width:90%; }
+        .contents .txt h2{font-size: 26px; color:#0f249a; font-weight:normal; margin-top:-80px; }
+        .contents .txt h3{font-size: 28px;}
+        .contents .txt p{font-size: 12px;}
+
+        .contents {margin:0 auto; width:90%;}
+        .contents .cont1 h1{font-size: 19px;margin-bottom: 15px;padding-top: 40px; color:#0f249a; }
+        .contents .cont1{width:100%; height:2100px;margin:90px auto 40px;font-size: 11px; }        
+        .contents .cont1 img{width:420px; margin:10px 0px 30px;}
+        .contents .cont1 .p2{margin-bottom:100px;}
+
+        .cont1_1{padding-bottom:100px;}
+
+    }
+
+    /*tablet*/
+    @media all and (min-width:640px) and (max-width:1199px){
+
+        {display:none;}
+
+        .visual .visual_in{width:100%; height:600px; text-align: center;z-index:3;}
+        .visual .visual_in h1{font-size: 100px; padding-top:200px;text-align: center; position: relative;}
+        .visual .visual_in p{font-size: 14px; letter-spacing:-2px; line-height: 2; margin-top:10px;}
+        .visual .visual_in .line1{border-bottom:1px solid #e4e4e4; width:1200px;margin-top:0%; position: absolute; left:2%; z-index:1;}
+        .visual .visual_in .line3{border-left:1px solid #e4e4e4; height:600px;margin-left:10%; position: absolute; top:30px; z-index:1;}
+        .visual .visual_in .line4{border-left:1px solid #e4e4e4; height:600px;margin-left:90%; position: absolute; top:30px; z-index:1;}
+
+        .contents {margin:0 auto; width:90%;}
+        .contents .txt {margin-top: -100px; line-height: 2;}
+        .contents .txt h2{font-size: 26px; color:#0f249a; font-weight:normal;}
+        .contents .txt h3{font-size: 30px;}
+        .contents .txt p{font-size: 13px; margin-bottom: 80px;}        
+
+        .contents .cont1{width:90%;height:1200px;margin:190px auto 70px;}
+        .contents .cont1 h1{font-size:26px;margin-bottom: 15px;}
+        .contents .cont1 .p2{font-size:18px; padding-bottom:70px;}
+        .contents .cont1 img{width:300px;}
+        .contents .cont1 .cont1_3 .img{margin-top:-100px;}
+    
+    }
+
+
+    /*pc*/
+     @media all and (min-width:1200px){
+
+        {display:none;}
+        .visual .visual_in{width:100%; height:700px; text-align: center;z-index:3;}
+        .visual .visual_in h1{font-size: 100px; padding-top:200px;text-align: center; position: relative;}
+        .visual .visual_in p{font-size: 16px; letter-spacing:-2px; line-height: 2; margin-top: 10px;}        
+        .visual .visual_in .line1{border-bottom:1px solid #e4e4e4; width:90%;margin-top:0%; position: absolute; left:2%; z-index:1;}
+        .visual .visual_in .line3{border-left:1px solid #e4e4e4; height:700px;margin-left:10%; position: absolute; top:130px; z-index:1;}
+        .visual .visual_in .line4{border-left:1px solid #e4e4e4; height:700px;margin-left:90%; position: absolute; top:130px; z-index:1;}
+
+        .contents {margin:0 auto; width:90%;}
+        .contents .txt {line-height: 2; height: 200px;  }
+        .contents .txt h2{font-size: 26px; color:#0f249a; font-weight:normal;}
+        .contents .txt h3{font-size: 30px;}
+        .contents .txt p{font-size: 16px; margin-bottom: 80px;}
+
+        .contents .cont1{width:80%;height:1800px;margin:190px auto 70px; }
+        .contents .cont1 .p2{font-size:18px;}
+        .cont1_1{}
+        .cont1_2{}
+        .cont1_3{}
+        .contents .cont1 img{width:400px;}
+        .contents .cont1 .left img{float:left;margin-right: 150px;}
+        .contents .cont1 .right img{float:right;margin-left: 150px;}
+        .contents .cont1 .cont1_3 .img{margin-top:-100px; background: pink;}
+    
+        
+    }

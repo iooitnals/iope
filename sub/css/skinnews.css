@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+
+
+/*contents*/
+.contents{margin:60px auto 0;width:100%;overflow: hidden;}
+
+/*cont1*/
+.contents .cont1{width:80%;height: 2250px;margin:60px auto 0;}
+
+.contents .cont1 h1{text-align: center;font-size: 13px;color:#5f5f5f;font-weight: normal;line-height: 1.6;margin-bottom: 120px;}
+.contents .cont1 h1 span{font-size: 40px;color:#2f2f2f;font-weight: bold;letter-spacing: -1.5px;}
+
+.contents .cont1 ul {border-top: 2px solid #362587;}
+.contents .cont1 ul li{float:left;width: 50%;height: 220px;;border-bottom:1px solid #dfdfdf;box-sizing: border-box;}
+.contents .cont1 ul .left{border-right:1px solid #dfdfdf;}
+ 
+.contents .cont1 ul li img{float:left;height: 160px;margin:30px 12px 0 10px}
+.contents .cont1 ul li .p1{margin:55px 0 20px;font-size: 12px;color:#595959;}
+.contents .cont1 ul li .p1 span{font-size: 16px;color:#362587;font-weight: bold;}
+.contents .cont1 ul li .p2{color:#969696;font-size: 11.3px;}
+
+
+
+

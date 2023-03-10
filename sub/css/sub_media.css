@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+
+/* 모바일 */
+@media screen and (max-width:639px){
+.cont1_pc, .cont2_t, .h2, .h3{display:none;}
+
+.contents .content1 ul li{width:100%;margin-bottom:20px;}
+.contents .content1 ul li:last-child{margin-bottom:0px;}
+
+}
+
+
+/*  태블릿  */
+ @media screen and (min-width:640px) and (max-width:1024px){
+.cont1_pc , .cont3_m{display:none;}
+.contents .content1 ul li{width:32.63888888888889%;margin-right:1.041666666666667%;}
+.contents .content1 ul li:last-child{margin-right:0;}
+
+}
+
+/*  PC  */
+@media all and (min-width:1024px){
+.cont2_t, .cont3_m{display:none;}
+.contents .content1 ul li{width:32.63888888888889%;margin-right:1.041666666666667%;}
+.contents .content1 ul li:last-child{margin-right:0; margin-bottom:100px;}
+
+}
+
+
+
+

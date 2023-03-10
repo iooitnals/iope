@@ -1,0 +1,74 @@
+/*base*/
+body,ul,li,ol,dl,dt,dd,p,h1,h2,h3,h4,h5,h6{margin:0;padding:0;}    
+body{font:normal 12px "맑은고딕", "Malgun Gothic", serif;}
+ul{list-style: none;}
+img{border:0;vertical-align: top;}
+a{text-decoration: none;} 
+
+
+
+section{width:100%;height:500px;position:relative;}
+
+.page1{background:url(../images/bg01.png) no-repeat center;background-size:cover;}
+.page2{background:#fff;}
+.page3{background:#fff;}
+.page2{background:#fff;}
+.page5{background:#fff;}
+
+
+
+.page1 #page1{width:1100px;height:470px;background:rgba(255, 255, 255, 0.9);position:absolute;top:50%;left:50%;transform: translate(-50%,-47%);box-sizing: border-box;}
+.page2 #page2{width:900px;height:470px;position:absolute;top:50%;left:50%;transform: translate(-50%,-47%);padding-top:10px;box-sizing: border-box;}
+.page3 #page3{width:900px;height:470px;position:absolute;top:50%;left:50%;transform: translate(-50%,-47%);padding-top:10px;box-sizing: border-box;}
+.page4 #page4{width:900px;height:470px;position:absolute;top:50%;left:50%;transform: translate(-50%,-47%);padding-top:10px;box-sizing: border-box;background:rgba(233, 232, 255, 0.5);}
+.page5 #page5{width:900px;height:470px;position:absolute;top:50%;left:50%;transform: translate(-50%,-47%);padding-top:10px;box-sizing: border-box;}
+
+/*page1*/
+.page1 #page1 div{float:left;width:50%;height:390px;margin-top:35px;background:rgba(255,255,255,0.5);}
+.page1 #page1 h2{text-align:center;color:#fff;}
+.page1 #page1 div.page1_in1{width:940px; height:420px; margin-left:80px; background: #fff; position:absolute;top:-10px;left:10px; z-index: 1; float:left;}
+.page1 #page1 div.page1_in2{width:940px; height:420px; margin-left:80px; background: #eee; position:absolute;top:-10px;left:10px; z-index: 2; float:right;}
+.page1 #page1 div.page1_in3{width:940px; height:380px; margin-left:80px; background:url(../images/page1.JPG)no-repeat; position:absolute;top:10px;left:24px; z-index: 3; float:left;}
+.page1 #page1 div.page1_in3 p{color:#fff;}
+
+
+/*page2*/
+.page2 #page2 div{float:left;width:47%;height:390px;margin-top:25px;background:rgba(255,255,255,0.4);}
+.page2 #page2 h2{text-align:center;color:#333; font-size:29px;}
+.page2 #page2 div.page2_in1{margin-left:2%; text-align: center;background:#eee;}
+.page2 #page2 div.page2_in1 img{margin-left:-10px;}
+.page2 #page2 div.page2_in1 p{font-size: 15px;}
+.page2 #page2 div.page2_in1 p .nb{font-size:45px;font-weight: bold;color: #362587;}
+
+.page2 #page2 div.page2_in2{margin-left:2%; float:left; background:#eee;}
+.page2 #page2 div.page2_in2 p{font-size: 15px; line-height:30px;}
+.page2 #page2 div.page2_in2 p span{font-weight: bold; margin:0 20px;color: #362587;}
+
+
+/*page3*/
+.page3 #page3 div{float:left;width:47%;height:390px;margin-top:25px;background:rgba(255,255,255,0.4);}
+.page3 #page3 h3{text-align:center;color:#333; font-size:24px; margin:10px;}
+.page3 #page3 div.page3_in1{margin-left:2%; text-align:left; background:#eee;}
+.page3 #page3 div.page3_in1 img{ position:absolute;top:40px;left:0px; margin-left:170px;}
+.page3 #page3 div.page3_in1 p{font-size: 15px;line-height:30px;}
+.page3 #page3 div.page3_in1 p span{font-weight: bold; margin:30px 20px;color:#362587;}
+
+
+.page3 #page3 div.page3_in2{margin-left:2%; text-align:left; background:#eee;}
+.page3 #page3 div.page3_in2 img{ position:absolute;top:40px;left:0px; margin-left:170px;}
+.page3 #page3 div.page3_in2 p{font-size: 15px;line-height:30px;}
+.page3 #page3 div.page3_in2 p span{font-weight: bold; margin:30px 20px;color:#362587;}
+
+/*page4*/
+.page4 #page4 div{float:left;width:47%;height:390px;margin-top:25px;}
+.page4 #page4 h2{text-align:center;color:#333; font-size:22px;}
+.page4 #page4 div.page4_in1{margin-left:2%; text-align: left;}
+.page4 #page4 div.page4_in1 p{font-size: 15px; line-height:26px;}
+.page4 #page4 div.page4_in1 p span{font-weight: bold; margin:0 20px;color: #362587;}
+
+.page4 #page4 div.page4_in2 img{margin-top:-80px;}
+.page4 #page4 div.page4_in2{margin-left:2%; float:left; }
+
+
+.scroll_down{position:absolute;bottom:7%;left:50%;transform: translateX(-50%);z-index: 2;width:46px;height:70px;}
+.scroll_down .down{animation-name:down;animation-duration: 1.5s;animation-iteration-count: infinite;}
